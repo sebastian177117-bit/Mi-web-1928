@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi mini web</title>
+    <style>
+        body {
+            background-color: lightblue; /*black blue */
+            text-align: center;
+            font-family: Arial;
+        }
+
+        h1 {
+            color: darkblue; *orange*/
+            font-size: 40px; /* cambia el tamaño */
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 20px;
+            background-color: orange;
+            border: none;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="titulo">aprendiendo 😎</h1>
+
+    <button onclick="cambiar()">Haz click</button>
+
+    <script>
+        function cambiar() {
+            document.getElementById("titulo").innerHTML = "Has cambiado el texto 🔥";
+            document.body.style.backgroundColor = "lightgreen"; // cambia color al hacer click
+        }
+    </script>
+
+</body>
+</html>
